@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Offside&display=swap');
+body {}
+table {
+    background-color:#116acab9;
+}
+caption {
+  background-image: url(./bilder/art-institute-of-chicago-YFTRPAoV4LY-unsplash.jpg);
+    background-color: #0daa42;
+    font-size: 40px;
+      font-family: "Offside", sans-serif; 
+}
+tr {}
+th {
+    font-size: 20px;
+    padding: 10px;
+  font-family: "Cormorant Garamond", serif;
+}
+td {
+    font-size: 15px;
+    padding: 20px;
+  font-family: "Cormorant Garamond", serif; 
+}
+img {
+    width: 250px;
+}
