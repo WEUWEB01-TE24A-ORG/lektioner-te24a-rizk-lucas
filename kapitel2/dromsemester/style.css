@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+body{
+background-image: url(./bilder/denys-nevozhai-guNIjIuUcgY-unsplash\ \(1\).jpg);
+    background-size: cover;
+}
+h1 {
+    color: #000;
+        font-family: "Estonia", cursive;
+        font-size: 100px;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 0 rebeccapurple;
+        margin-left: 250px;
+}
+h2{
+    color: #000;
+        font-family: "Estonia", cursive;
+        font-size: 40px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0 rebeccapurple;
+        margin-left: 250px;
+}
+p{
+     margin-top: 300px;
+    margin-left: 900px;
+}
+a{
+    color: #000;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rebeccapurple;
+    text-decoration: none;
+    background-color: rebeccapurple;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+}
