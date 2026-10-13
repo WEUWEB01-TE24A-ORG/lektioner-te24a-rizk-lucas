@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #a1c6d2;
+}
+div{
+background-image: url(./bilder/braden-barwich-yaAruHxQ9OQ-unsplash.jpg);
+background-position: -2300px -2008px;
+background-color: aquamarine;
+    width: 500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+box-shadow: 5px 5px 20px black;
+}
+h1{
+  font-family: "Faster One", system-ui;
+  font: size 50px; ;
+margin-left: 50px;
+}
+h2{
+  font-family: "Faster One", system-ui;
+  font-size: 30px;
+  margin-top: 120px;
+margin-left: 50px;
+}
+p{
+  font-family: "Faster One", system-ui;
+  margin-left: 50px;
+
+}
