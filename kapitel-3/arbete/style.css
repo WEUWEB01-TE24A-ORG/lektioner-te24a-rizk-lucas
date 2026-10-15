@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    background-image: url(./bilder/placidplace-frequency-wave-7776034_1920.jpg);
+}
+div {
+  font-family: "Germania One", system-ui;
+background-color: rgba(127, 255, 212, 0.499);
+width: 700px;
+margin-left: auto ;
+margin-top: 50px; 
+margin-right: auto;
+padding: 30px;
+border: 5px dashed #000;
+}
+h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+a {
+    font-size: 40px;
+    color: #000;
+    text-decoration: none;
+    font-size: 50px;
+}
