@@ -63,5 +63,5 @@ p.datum{}
 p{
        font-family: "Beau Rivage", cursive;
       color: whitesmoke;
-      text-size-adjust: large;
+     text-size-adjust: 50px;
 }
