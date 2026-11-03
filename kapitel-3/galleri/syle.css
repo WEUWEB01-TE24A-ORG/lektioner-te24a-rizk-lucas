@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+:root{
+    --neon-pink: #f72585ff;
+--raspberry-plum: #b5179eff;
+--indigo-bloom: #7209b7ff;
+--ultrasonic-blue: #560badff;
+--true-azure: #480ca8ff;
+--vivid-royal: #3a0ca3ff;
+--bright-indigo: #3f37c9ff;
+--electric-sapphire: #4361eeff;
+--blue-energy: #4895efff;
+--sky-aqua: #4cc9f0ff;
+}
+
+body{
+background-color:  #480ca8ff;;
+}
+h1{
+      font-family: "PT Serif Caption", serif;
+      color: #4895efff;;
+}
+/*div.kontainer{
+      font-family: "PT Serif Caption", serif;
+}
+
+.intro{
+ font-family: "PT Serif Caption", serif;
+}
+
+div.box{
+    padding: 50px;
+    margin-bottom: 30px;
+    gap: 30px;
+    display: flex;
+}
+
+img{}/*
