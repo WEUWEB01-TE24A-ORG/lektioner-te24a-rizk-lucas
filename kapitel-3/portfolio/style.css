@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+/* Grund */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #210529;
+    color: white;
+  font-family: "Racing Sans One", sans-serif;
+    text-align: center;
+}
+
+/* Container */
+.kontainer {
+    width: 85%;
+    margin: auto;
+    padding: 25px;
+    max-width: 1000px;
+}
+
+/* Huvudrubrik */
+h1 {
+ font-size: 42px;
+ padding: 20px;
+ margin-bottom: 30px;
+ letter-spacing: 5px;
+ border-bottom: 3px solid #c084fc;
+}
+
+/* Kolumner */
+.kolumner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Kategorier */
+.kategorier {
+display: grid;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #351b3d;
+    grid-template-columns: 1fr 1fr;
+gap: 30px;
+border-radius: 10px;
+}
+
+/* Rubriker */
+h2 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    grid-column: 1/3;
+}
+
+/* Bilder */
+img {
+    width: 100%;
+    height: 160px;
+    max-width: 250px;
+    
+    object-fit: cover;
+border: 4px solid white;
+border-radius: 7px;
+
+}
+
+/* Text */
+p {
+    max-width: 280px;
+    padding: 10px;
+    margin: auto;
+   
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/* =========================
+   MOBILANPASSNING
+========================= */
+
+@media (max-width: 600px) {
+
+    .kontainer {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .kategori {
+        grid-template-columns: 1fr;
+    }
+
+    .kategori h2 {
+        grid-column: 1;
+    }
+
+    .kategori img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
